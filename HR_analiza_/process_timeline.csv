@@ -1,0 +1,6 @@
+task,duration_days,depends_on
+Zamówienie surowca,2,
+Weryfikacja jakości,1,Zamówienie surowca
+Produkcja,5,Weryfikacja jakości
+Magazynowanie,3,Produkcja
+Dostawa,4,Magazynowanie
